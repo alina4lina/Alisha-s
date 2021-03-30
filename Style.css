@@ -1,4 +1,4 @@
- body{
+  body{
 	background:white;
 	 margin: 0;
 }
@@ -442,8 +442,81 @@ table, th, td {
   font-family:Cambria, Cochin, Georgia, Times, "Times New Roman", serif;	
   
 }	
-		
+.searchform {
+  display: block;	
+  margin: 0;
+  margin-top
+}
+
+.searchform label, 
+.searchform input {
+  color: white;
+  float: left;
+  vertical-align: baseline;
+ 
+}
+
+.searchform label { margin: .125em .125em 0 0; }
+
+.searchform input[type=search] {
+  font: 1em/1.618 Open Sans, Arial, Sans-serif;
+  border: .125em solid white;
+  border-width: 0 0 3px;
+  background-color: transparent;
+  padding: .1875em .375em;
+  width: 80%;
+  margin-top:-15px;
+}
+
+.searchform input[type=search]:focus {
+  border-color: white;
+  color:white;
+  outline: 0;
+  margin-top:-22px;
+}
+
+.fa.fa-search{
+	float:right;
+	margin-left:300px;
+	color:white;
+	font-size:20px;
+	margin-top:12px;
 	
+}
+}
+
+.login{
+font-size:14px;	
+display:block;
+margin-right:2.5%;
+text-decoration:none;
+color:black;
+font-family:Arial Black, Helvetica, sans-serif;	
+
+}
+
+.fa.fa-shopping-bag{
+	
+	font-size:30px;
+	color:black;
+	margin-right:15px;
+	text-decoration:none;
+	
+	
+	
+	
+	
+	
+	
+}
+@media screen and (max-width: 600px) {
+.login{
+display:none;
 	
 
+}
+
+
+  
+  
 }
